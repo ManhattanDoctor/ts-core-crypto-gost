@@ -1,0 +1,31 @@
+{
+    "name": "@ts-core/crypto-gost",
+    "version": "2.0.0",
+    "description": "Classes and utils for crypto-gost",
+    "main": "index.js",
+    "scripts": {},
+    "author": {
+        "name": "Renat Gubaev",
+        "email": "renat.gubaev@gmail.com"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "@ts-core/common": "^2.0.3",
+        "@vostokplatform/crypto-gost-js": "^2.0.1"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.31",
+        "gulp-npm-publisher": "^2.0.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ManhattanDoctor/ts-core-crypto-gost.git"
+    },
+    "keywords": [
+        "typescript"
+    ],
+    "bugs": {
+        "url": "https://github.com/ManhattanDoctor/ts-core-crypto-gost/issues"
+    },
+    "homepage": "https://github.com/ManhattanDoctor/ts-core-crypto-gost#readme"
+}
