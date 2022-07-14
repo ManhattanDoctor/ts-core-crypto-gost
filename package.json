@@ -1,6 +1,6 @@
 {
     "name": "@ts-core/crypto-gost",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "description": "Classes and utils for crypto-gost",
     "main": "./cjs/public-api.js",
     "module": "./esm/public-api.js",
