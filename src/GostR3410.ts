@@ -1,6 +1,6 @@
 import * as _ from 'lodash';
 import { GostBase, IGostEncrypted } from './GostBase';
-import { IKeyAsymmetric } from '@ts-core/common/crypto';
+import { IKeyAsymmetric } from '@ts-core/common';
 
 export class GostR3410 {
     // --------------------------------------------------------------------------

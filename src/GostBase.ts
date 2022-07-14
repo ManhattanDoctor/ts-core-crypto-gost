@@ -1,5 +1,5 @@
 import * as _ from 'lodash';
-import { IKeyAsymmetric } from '@ts-core/common/crypto';
+import { IKeyAsymmetric } from '@ts-core/common';
 import * as Gost from '@vostokplatform/crypto-gost-js';
 
 const gost = Gost.CryptoGost;

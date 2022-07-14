@@ -1,7 +1,5 @@
 import * as _ from 'lodash';
-import { ITransportCryptoManager } from '@ts-core/common/transport/crypto';
-import { ITransportCommand } from '@ts-core/common/transport';
-import { ISignature } from '@ts-core/common/crypto';
+import { ITransportCommand, ITransportCryptoManager, ISignature } from '@ts-core/common';
 import { GostR3410 } from '../GostR3410';
 
 export class TransportCryptoManagerGostR3410 implements ITransportCryptoManager {

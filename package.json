@@ -1,8 +1,15 @@
 {
     "name": "@ts-core/crypto-gost",
-    "version": "2.0.1",
+    "version": "3.0.0",
     "description": "Classes and utils for crypto-gost",
-    "main": "index.js",
+    "main": "./cjs/public-api.js",
+    "module": "./esm/public-api.js",
+    "exports": {
+        ".": {
+            "import": "./esm/public-api.js",
+            "require": "./cjs/public-api.js"
+        }
+    },
     "scripts": {},
     "author": {
         "name": "Renat Gubaev",
@@ -10,12 +17,12 @@
     },
     "license": "ISC",
     "dependencies": {
-        "@ts-core/common": "^2.0.3",
+        "@ts-core/common": "^3.0.3",
         "@vostokplatform/crypto-gost-js": "^2.0.1"
     },
     "devDependencies": {
         "@types/node": "^14.14.31",
-        "gulp-npm-publisher": "^2.0.2"
+        "gulp-npm-module-publisher": "^3.0.0"
     },
     "repository": {
         "type": "git",
