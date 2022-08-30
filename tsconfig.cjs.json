@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "declaration": true,
+        "noImplicitAny": false,
+        "noUnusedLocals": false,
+        "removeComments": true,
+        "noLib": false,
+        "baseUrl": "./",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es2015",
+        "sourceMap": true,
+        "allowJs": false,
+        "outDir": "dist",
+        "lib": ["es7"]
+    },
+    "include": ["src/*.ts", "src/**/*.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
