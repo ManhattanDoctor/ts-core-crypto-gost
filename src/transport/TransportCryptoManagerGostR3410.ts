@@ -1,8 +1,8 @@
 import * as _ from 'lodash';
-import { ITransportCommand, ITransportCryptoManager, ISignature } from '@ts-core/common';
+import { ITransportCommand, TransportCryptoManager, ISignature } from '@ts-core/common';
 import { GostR3410 } from '../GostR3410';
 
-export class TransportCryptoManagerGostR3410 implements ITransportCryptoManager {
+export class TransportCryptoManagerGostR3410 extends TransportCryptoManager {
     // --------------------------------------------------------------------------
     //
     //  Static Methods
@@ -27,14 +27,9 @@ export class TransportCryptoManagerGostR3410 implements ITransportCryptoManager 
 
     // --------------------------------------------------------------------------
     //
-    //  Protected Methods
+    //  Public Properties
     //
     // --------------------------------------------------------------------------
-
-    protected toString<U>(command: ITransportCommand<U>, nonce: string): string {
-        let request = !_.isNil(command.request) ? command.request.toString() : '';
-        return `${command.name}${request}${nonce}`;
-    }
 
     public get algorithm(): string {
         return TransportCryptoManagerGostR3410.ALGORITHM;
