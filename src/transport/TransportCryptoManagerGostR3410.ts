@@ -5,7 +5,7 @@ import * as _ from 'lodash';
 export class TransportCryptoManagerGostR3410 extends TransportCryptoManager {
     // --------------------------------------------------------------------------
     //
-    //  Static Methods
+    //  Constants
     //
     // --------------------------------------------------------------------------
 
