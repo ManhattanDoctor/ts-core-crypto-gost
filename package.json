@@ -17,8 +17,9 @@
     },
     "license": "ISC",
     "dependencies": {
-        "@ts-core/common": "^3.0.3",
-        "@vostokplatform/crypto-gost-js": "^2.0.1"
+        "@ts-core/common": "~3.0.53",
+        "@vostokplatform/crypto-gost-js": "^2.0.1",
+        "source-map": "^0.7.4"
     },
     "devDependencies": {
         "@types/node": "^14.14.31",
