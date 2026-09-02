@@ -1,6 +1,6 @@
 {
     "name": "@ts-core/crypto-gost",
-    "version": "3.0.9",
+    "version": "3.0.10",
     "description": "TypeScript library for Russian GOST cryptographic standards (GOST R 34.10, GOST R 34.11) - key generation, signing, verification, encryption and decryption",
     "main": "./cjs/public-api.js",
     "module": "./esm/public-api.js",
